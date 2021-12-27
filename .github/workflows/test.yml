@@ -11,7 +11,5 @@ jobs:
           run: echo "Deployed"
       - name: Install node_modules
         run: yarn
-      # - name: Build the project
-      #   run: yarn build
-      # - name: Deploy
-      #   run: firebase deploy
+      - name: Build the project
+        run: yarn build
