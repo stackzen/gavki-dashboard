@@ -1,0 +1,38 @@
+.header {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header_title {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header_profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header_username {
+  font-size: 16px;
+  color: var(--heading);
+}
+
+.header_profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.header_divider {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.header__title {
+  object-fit: contain;
+  height: 45px;
+}

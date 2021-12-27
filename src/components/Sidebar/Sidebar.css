@@ -1,0 +1,22 @@
+.sidebar_nav {
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar_nav:hover {
+  background-color: #eef4fb;
+}
+.active {
+  background-color: #eef4fb;
+  border-left: 3px solid var(--heading);
+  color: #18243e;
+}
+.routelink {
+  position: relative;
+  text-decoration: none;
+  color: var(--heading);
+}

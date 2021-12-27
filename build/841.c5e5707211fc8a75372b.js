@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgavki_dashboard=self.webpackChunkgavki_dashboard||[]).push([[841],{5841:(e,a,l)=>{l.r(a),l.d(a,{default:()=>t});var n=l(7294),r=l(3527);const t=function(){return n.createElement(r.Z,null,n.createElement("p",null,"Hello Dashboard"))}}}]);
+//# sourceMappingURL=841.c5e5707211fc8a75372b.js.map
