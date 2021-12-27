@@ -8,9 +8,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-          run: echo "Deployed" 
-      # - name: Install node_modules
-      #   run: yarn
+          run: echo "Deployed"
+      - name: Install node_modules
+        run: yarn
       # - name: Build the project
       #   run: yarn build
       # - name: Deploy
