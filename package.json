@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf node_modules",
     "build": "webpack --watch -d source-map --mode=production",
+    "lint": "yarn eslint .",
     "start": "cross-env STAGE=dev VARIATION=gavki webpack-dev-server --mode=development --hot"
   },
   "appEnv": {
@@ -55,13 +56,13 @@
     "babel-loader": "^8.0.6",
     "cross-env": "^7.0.2",
     "css-loader": "^6.5.1",
-    "eslint": "^8.4.1",
+    "eslint": "^8.5.0",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.0.8",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.4",
